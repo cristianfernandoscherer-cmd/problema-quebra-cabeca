@@ -31,3 +31,12 @@ O objetivo é reorganizar as peças a partir de um estado inicial até o **estad
 ```bash
 make build
 make run
+```
+
+---
+
+## 📊 Monitoramento
+
+- Para acompanhar o desempenho de cada algoritmo, execute o script ./script/monitor.sh.
+- Ele exibirá em tempo real informações sobre uso de CPU, memória e tempo de execução de cada algoritmo enquanto resolve o problema.
+- Ao final, o script gera um resumo com estatísticas máximas, médias e tempo total, permitindo comparar facilmente a eficiência de cada abordagem.
