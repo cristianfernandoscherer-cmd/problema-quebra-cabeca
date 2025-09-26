@@ -13,7 +13,7 @@ O objetivo é reorganizar as peças a partir de um estado inicial até o **estad
 
 ## ⚙️ Funcionalidades
 
-- Escolha entre diferentes **estados iniciais** (`easy`, `medium`, `hard`)
+- Escolha entre diferentes **estados iniciais** (`easy`, `medium`, `hard`, `expert`, `genius`, `nightmare`)
 - Suporte a **BFS (Breadth-First Search)**  
 - Suporte a **Heurísticas**:
   - `manhattan`
