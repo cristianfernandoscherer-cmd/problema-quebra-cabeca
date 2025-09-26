@@ -10,46 +10,67 @@ import (
 )
 
 func main() {
-	var escolha, tipoBusca, tipoHeuristica string
-	
-	fmt.Println("Escolha um estado inicial: easy, medium ou hard")
-	fmt.Print("> ")
-	fmt.Scanln(&escolha)
+	var escolhaNum, tipoBuscaNum, tipoHeuristicaNum int
 
-	estadoInicial, ok := states.EscolherEstadoInicial(escolha)
-	if !ok {
+	// Mapear opções para estados iniciais
+	opcoesEstados := []string{"easy", "medium", "hard", "expert", "genius", "nightmare"}
+
+	fmt.Println("Escolha um estado inicial:")
+	for i, nome := range opcoesEstados {
+		fmt.Printf("%d) %s\n", i+1, nome)
+	}
+	fmt.Print("> ")
+	fmt.Scanln(&escolhaNum)
+
+	if escolhaNum < 1 || escolhaNum > len(opcoesEstados) {
 		fmt.Println("Escolha inválida.")
 		return
 	}
+	estadoInicial := states.EstadosIniciais[opcoesEstados[escolhaNum-1]]
 
-	fmt.Println("Escolha o tipo de busca: bfs ou astar")
+	// Escolher tipo de busca
+	fmt.Println("Escolha o tipo de busca:")
+	fmt.Println("1) Busca em largura")
+	fmt.Println("2) Busca por Heurística")
 	fmt.Print("> ")
-	fmt.Scanln(&tipoBusca)
+	fmt.Scanln(&tipoBuscaNum)
 
-	if tipoBusca == "astar" {
-		fmt.Println("Escolha a heurística: manhattan ou foraDoLugar")
+	var tipoBusca, tipoHeuristica string
+	if tipoBuscaNum == 1 {
+		tipoBusca = "bfs"
+	} else if tipoBuscaNum == 2 {
+		tipoBusca = "astar"
+
+		// Escolher heurística
+		fmt.Println("Escolha a heurística:")
+		fmt.Println("1) Manhattan")
+		fmt.Println("2) OutOfPlace")
 		fmt.Print("> ")
-		fmt.Scanln(&tipoHeuristica)
-		
-		if tipoHeuristica != "manhattan" && tipoHeuristica != "foraDoLugar" {
+		fmt.Scanln(&tipoHeuristicaNum)
+
+		if tipoHeuristicaNum == 1 {
+			tipoHeuristica = "manhattan"
+		} else if tipoHeuristicaNum == 2 {
+			tipoHeuristica = "foraDoLugar"
+		} else {
 			fmt.Println("Heurística inválida. Usando Manhattan como padrão.")
 			tipoHeuristica = "manhattan"
 		}
+
+	} else {
+		fmt.Println("Tipo de busca inválida.")
+		return
 	}
 
-	fmt.Println("Estado inicial selecionado:")
+	fmt.Println("\nEstado inicial selecionado:")
 	utils.ImprimirEstado(estadoInicial)
 	fmt.Println()
 
 	var caminho []types.State
-
 	if tipoBusca == "bfs" {
 		caminho = search.BFS(estadoInicial, states.EstadoObjetivo)
 	} else if tipoBusca == "astar" {
 		caminho = search.AStar(estadoInicial, states.EstadoObjetivo, tipoHeuristica)
-	} else {
-		fmt.Println("Tipo de busca inválido.")
-		return
 	}
 
 	utils.ImprimirCaminho(caminho, moves.ObterMovimento)
