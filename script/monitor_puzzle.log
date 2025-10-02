@@ -1,0 +1,91 @@
+=== Início do monitoramento: sex 26 set 2025 12:19:16 -03 ===
+Processo: puzzle (PID: 80358)
+Intervalo: 0.5 segundos
+=========================================
+[12:19:16] CPU: 0.8% | MEM: 0.0% | RSS: 3MB
+[12:19:17] CPU: 2.1% | MEM: 0.0% | RSS: 4MB
+[12:19:17] CPU: 3.4% | MEM: 0.0% | RSS: 5MB
+[12:19:18] CPU: 4.6% | MEM: 0.0% | RSS: 6MB
+[12:19:18] CPU: 5.9% | MEM: 0.0% | RSS: 6MB
+[12:19:19] CPU: 7.0% | MEM: 0.0% | RSS: 6MB
+[12:19:20] CPU: 8.2% | MEM: 0.0% | RSS: 6MB
+[12:19:20] CPU: 9.4% | MEM: 0.0% | RSS: 6MB
+[12:19:21] CPU: 10.5% | MEM: 0.0% | RSS: 6MB
+[12:19:21] CPU: 11.5% | MEM: 0.0% | RSS: 6MB
+[12:19:22] CPU: 12.6% | MEM: 0.0% | RSS: 7MB
+=== Início do monitoramento: sex 26 set 2025 12:20:19 -03 ===
+Processo: puzzle (PID: 81008)
+Intervalo: 0.5 segundos
+=========================================
+[12:20:19] CPU: 2.5% | MEM: 0.0% | RSS: 3MB
+[12:20:19] CPU: 6.1% | MEM: 0.0% | RSS: 4MB
+[12:20:20] CPU: 9.6% | MEM: 0.0% | RSS: 5MB
+[12:20:20] CPU: 12.7% | MEM: 0.0% | RSS: 5MB
+[12:20:21] CPU: 15.6% | MEM: 0.0% | RSS: 6MB
+[12:20:21] CPU: 18.4% | MEM: 0.0% | RSS: 6MB
+[12:20:22] CPU: 21.0% | MEM: 0.0% | RSS: 6MB
+[12:20:22] CPU: 23.4% | MEM: 0.0% | RSS: 6MB
+[12:20:23] CPU: 25.7% | MEM: 0.0% | RSS: 6MB
+[12:20:23] CPU: 27.9% | MEM: 0.0% | RSS: 6MB
+[12:20:24] CPU: 29.9% | MEM: 0.0% | RSS: 6MB
+[12:20:25] CPU: 31.8% | MEM: 0.0% | RSS: 6MB
+[12:20:25] CPU: 33.6% | MEM: 0.0% | RSS: 6MB
+[12:20:26] CPU: 35.4% | MEM: 0.0% | RSS: 7MB
+[12:20:26] CPU: 37.0% | MEM: 0.1% | RSS: 8MB
+[12:20:27] CPU: 38.6% | MEM: 0.1% | RSS: 8MB
+[12:20:27] CPU: 40.0% | MEM: 0.1% | RSS: 8MB
+[12:20:28] CPU: 41.5% | MEM: 0.1% | RSS: 8MB
+[12:20:28] CPU: 42.8% | MEM: 0.1% | RSS: 8MB
+[12:20:29] CPU: 44.1% | MEM: 0.1% | RSS: 9MB
+[12:20:29] CPU: 45.4% | MEM: 0.1% | RSS: 9MB
+[12:20:30] CPU: 46.5% | MEM: 0.1% | RSS: 9MB
+[12:20:31] CPU: 47.7% | MEM: 0.1% | RSS: 9MB
+[12:20:31] CPU: 48.8% | MEM: 0.1% | RSS: 9MB
+[12:20:32] CPU: 49.8% | MEM: 0.1% | RSS: 9MB
+[12:20:32] CPU: 50.8% | MEM: 0.1% | RSS: 10MB
+[12:20:33] CPU: 51.8% | MEM: 0.1% | RSS: 10MB
+[12:20:33] CPU: 52.8% | MEM: 0.1% | RSS: 10MB
+[12:20:34] CPU: 53.6% | MEM: 0.1% | RSS: 10MB
+[12:20:34] CPU: 54.5% | MEM: 0.1% | RSS: 10MB
+[12:20:35] CPU: 55.3% | MEM: 0.1% | RSS: 11MB
+[12:20:36] CPU: 56.1% | MEM: 0.1% | RSS: 11MB
+[12:20:36] CPU: 56.9% | MEM: 0.1% | RSS: 11MB
+[12:20:37] CPU: 57.6% | MEM: 0.1% | RSS: 11MB
+[12:20:37] CPU: 58.4% | MEM: 0.1% | RSS: 11MB
+[12:20:38] CPU: 59.0% | MEM: 0.1% | RSS: 11MB
+[12:20:38] CPU: 59.7% | MEM: 0.1% | RSS: 11MB
+[12:20:39] CPU: 60.4% | MEM: 0.1% | RSS: 11MB
+[12:20:39] CPU: 61.0% | MEM: 0.1% | RSS: 12MB
+[12:20:40] CPU: 61.7% | MEM: 0.1% | RSS: 12MB
+[12:20:40] CPU: 62.2% | MEM: 0.1% | RSS: 13MB
+[12:20:41] CPU: 62.8% | MEM: 0.1% | RSS: 13MB
+[12:20:42] CPU: 63.4% | MEM: 0.1% | RSS: 14MB
+[12:20:42] CPU: 63.9% | MEM: 0.1% | RSS: 14MB
+[12:20:43] CPU: 64.5% | MEM: 0.1% | RSS: 14MB
+[12:20:43] CPU: 65.0% | MEM: 0.1% | RSS: 14MB
+[12:20:44] CPU: 65.4% | MEM: 0.1% | RSS: 14MB
+[12:20:44] CPU: 65.9% | MEM: 0.1% | RSS: 14MB
+[12:20:45] CPU: 66.4% | MEM: 0.1% | RSS: 14MB
+[12:20:45] CPU: 66.9% | MEM: 0.1% | RSS: 14MB
+[12:20:46] CPU: 67.3% | MEM: 0.1% | RSS: 14MB
+[12:20:46] CPU: 67.8% | MEM: 0.1% | RSS: 14MB
+[12:20:47] CPU: 68.2% | MEM: 0.1% | RSS: 14MB
+[12:20:48] CPU: 68.6% | MEM: 0.1% | RSS: 14MB
+[12:20:48] CPU: 69.0% | MEM: 0.1% | RSS: 14MB
+[12:20:49] CPU: 69.4% | MEM: 0.1% | RSS: 14MB
+[12:20:49] CPU: 69.8% | MEM: 0.1% | RSS: 14MB
+[12:20:50] CPU: 70.2% | MEM: 0.1% | RSS: 14MB
+[12:20:50] CPU: 70.6% | MEM: 0.1% | RSS: 14MB
+[12:20:51] CPU: 70.9% | MEM: 0.1% | RSS: 14MB
+[12:20:51] CPU: 71.3% | MEM: 0.1% | RSS: 14MB
+[12:20:52] CPU: 71.6% | MEM: 0.1% | RSS: 14MB
+[12:20:52] CPU: 71.9% | MEM: 0.1% | RSS: 14MB
+[12:20:53] CPU: 72.3% | MEM: 0.2% | RSS: 15MB
+[12:20:54] CPU: 72.6% | MEM: 0.2% | RSS: 15MB
+[12:20:54] CPU: 72.8% | MEM: 0.2% | RSS: 15MB
+[12:20:55] CPU: 73.1% | MEM: 0.2% | RSS: 15MB
+[12:20:55] CPU: 73.5% | MEM: 0.2% | RSS: 16MB
+[12:20:56] CPU: 73.8% | MEM: 0.2% | RSS: 16MB
+[12:20:56] CPU: 73.8% | MEM: 0.2% | RSS: 16MB
+[12:20:56] CPU: 74.1% | MEM: 0.2% | RSS: 16MB
+[12:20:57] CPU: 74.4% | MEM: 0.2% | RSS: 16MB

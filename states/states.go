@@ -12,7 +12,7 @@ var EstadoObjetivo = types.State{
 
 // Estados iniciais pré-definidos
 var EstadosIniciais = map[string]types.State{
-	"easy": {
+	"easy": {             
 		1, 2, 3, 4,
 		5, 6, 7, 8,
 		9, 10, 11, 12,
@@ -43,10 +43,10 @@ var EstadosIniciais = map[string]types.State{
 		13, 14, 15, 12,
     },
     "nightmare": {
-     	3, 2, 6, 4,     // ← Mantém 2 e 6 na ordem original
+     	3, 2, 6, 4,     
 		1, 10, 7, 8, 
 		5, 13, 11, 12,
-		9, 14, 0, 15,   // ← Apenas 0 movido para direita
+		9, 14, 0, 15,   
 	},		
 }
 
